@@ -1,0 +1,91 @@
+/* General styling */
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 2px;
+    background-color: #eee9e6de;
+
+}
+
+/* Card styling */
+.login-card {
+    max-width: 300px; /* Smaller card width */
+    width: 100%;
+    padding: 20px; /* Reduced padding */    
+    background: linear-gradient(360deg, rgba(196,215,115,1) 0%, rgba(254,149,93,1) 100%) !important;
+    border-radius: 10px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+    
+}
+
+.login-background {
+    
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form-label{
+    font-size: 0.8rem;
+    color:#060556;
+}
+/* Input fields */
+.form-control {
+    border-radius: 8px;
+    padding: 0.75rem;
+    background: rgba(255, 255, 255, 0.7);
+    border: 1px solid #ccc;
+    transition: border-color 0.3s ease, background 0.3s ease;
+}
+.form-control::placeholder{
+    color:#898686;
+}
+.form-control:focus {
+    background: rgba(255, 255, 255, 1);
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
+}
+
+/* Button styling */
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    border-radius: 8px;
+    padding: 0.75rem;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+}
+
+/* Error message */
+.alert-danger {
+    font-size: 0.9rem;
+    padding: 0.75rem;
+    background-color: #f8d7da;
+    color: #721c24;
+    border-radius: 8px;
+}
+
+/* Link button style for Sign Up */
+.btn-link {
+    text-decoration: none;
+    color: #007bff;
+    cursor: pointer;
+}
+
+.btn-link:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Design for mobile screens */
+@media (max-width: 576px) {
+    .login-card {
+        padding: 20px;
+    }
+}

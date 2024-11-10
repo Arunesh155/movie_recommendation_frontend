@@ -1,0 +1,36 @@
+/* src/styles.css */
+
+.App {
+    text-align: center;
+    margin: 20px;
+}
+
+.movie-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.movie-card {
+    width: 200px;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.movie-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.movie-card h3 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.movie-card p {
+    font-size: 14px;
+    margin: 5px 0;
+}

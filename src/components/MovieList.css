@@ -1,0 +1,32 @@
+.movie-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #fafafa;
+    border-radius: 10px;
+}
+
+.movie-card {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 15px;
+    width: 220px;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.movie-card:hover {
+    transform: scale(1.1);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.movie-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
