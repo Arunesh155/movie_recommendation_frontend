@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 import './SignUp.css';
+import 'bootstrap-icons/font/bootstrap-icons.css';
 
 const SignUp = ({ onSignUp,onToggleSignUp  }) => {
     const [email, setEmail] = useState('');
